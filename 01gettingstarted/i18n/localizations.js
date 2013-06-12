@@ -15,7 +15,7 @@ String.toLocaleString({
 	"ja": {
 		"%l_filetitle": "",
 		"%l_lessontitle": "",
-	}
+	},
 	"es": {
 		"%l_filetitle": "Comenzando",
 		"%l_lessontitle": "Comenzando",
@@ -34,6 +34,16 @@ String.toLocaleString({
 		"%l_appcplatform": "Vistazo a Appcelerator Platform",
 		"%l_slidenote_appcplatform": "Appcelerator Platform le brinda a empresas las herramientas necesarias para manejar el ciclo de vida de la aplicación por completo, desde desarrollo, implementación, monitoreo y retroalimentación. Combina distintos componentes y provee herramientas de monitoreo en tiempo real",
 		"%l_appc_vs_titanium": "Empresas y Comunidad",
-		"%l_slidenote_appc_vs_titanium": "<ul><li>The core of both offerings is the Titanium SDK</li><li>Appcelerator Studio is our Enterprise IDE which offers access to Platform features and a few other functions not available to the community</li><li>The Dashboard displays all relevant information about your portfolio of mobile apps</li><li>Appcelerator Performance Management captures real-time data about problems in your applications, including exceptions &amp; app crashes</li><li>Appcelerator Test delivers integrated functional test automation</li><li>Analytics offers real-time insight into user adoption, engagement and retention for your mobile apps</li></ul>"
+		"%l_platforms":"Plataformas Móviles Soportadas",
+		"%l_platform1":"iOS - iPhone, iPad, iPod Touch",
+		"%l_platform2":"Android - móviles y tabletas",
+		"%l_platform3":"Mobile Web (HTML5)",
+		"%l_platform4":"BlackBerry 10 (beta)",
+		"%l_platform5":"Tizen",
+		"%l_platform6":"Windows Phone 8",
+		"%l_powered_by":"Creado con Titanium",
+		"%l_slidenote_powered_by":"40,000 apps<br>370,000 desarrolladores",
+		"%l_architecture":"Arquitectura",
+		"%l_howtitaniumworks":"Como funciona Titanium"
 	},
 });
