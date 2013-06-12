@@ -9,5 +9,9 @@ String.toLocaleString({
 		"%l_coursename": "Titanium Certified Developer (TCD) Training",
 		"%l_agenda_title": "AGENDA",
 	},
-
+	"es": {
+		"%l_welcome": "Bienvenido a",
+		"%l_coursename": "Entrenamiento Titanium Certified Developer (TCD)",
+		"%l_agenda_title": "AGENDA",
+	},
 });
