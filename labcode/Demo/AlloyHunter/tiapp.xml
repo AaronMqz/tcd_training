@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ti:app xmlns:ti="http://ti.appcelerator.org">
+<?xml version="1.0" encoding="UTF-8"?><ti:app xmlns:ti="http://ti.appcelerator.org">
     <property name="acs-oauth-secret-production" type="string">1xVRU1INJopsq90pMwz5CqIspv84TNVl</property>
     <property name="acs-oauth-key-production" type="string">rrV83flILTNfeEtbSXSw0Xx1HJ85F2jG</property>
     <property name="acs-api-key-production" type="string">MRNJnjzy9D03hm6Hzle62e6gHrWOFZiD</property>
@@ -7,20 +6,21 @@
     <property name="acs-oauth-key-development" type="string">lwjH44Iv2GqBFKpIgeEvDWJYc1pPhbJJ</property>
     <property name="acs-api-key-development" type="string">VpgosPke9k8YHHMiJhCwYpNDFa4DdgBe</property>
     <deployment-targets>
+        <target device="tizen">false</target>
         <target device="mobileweb">true</target>
         <target device="iphone">true</target>
         <target device="ipad">true</target>
         <target device="android">true</target>
         <target device="blackberry">false</target>
     </deployment-targets>
-    <sdk-version>3.0.2.GA</sdk-version>
-    <id>ci.alloy.fugitive</id>
-    <name>alloy_fugitive</name>
+    <sdk-version>3.1.2.GA</sdk-version>
+    <id>com.appcelerator.alloyhunter</id>
+    <name>AlloyHunter</name>
     <version>1.0</version>
-    <publisher>aaronksaunders</publisher>
-    <url>http://www.clearlyinnovative.com</url>
+    <publisher>Appcelerator</publisher>
+    <url>http://www.appcelerator.com</url>
     <description>not specified</description>
-    <copyright>2012 by aaronksaunders</copyright>
+    <copyright>2013 Appcelerator with contributions by Aaron Saunders, Clearly Innovative used with permission</copyright>
     <icon>appicon.png</icon>
     <persistent-wifi>false</persistent-wifi>
     <prerendered-icon>false</prerendered-icon>
@@ -29,8 +29,9 @@
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
     <analytics>true</analytics>
-    <guid>3122078b-2a2e-4e3c-9be6-95ab58ca0b49</guid>
+    <guid>CD53D508-313C-4843-A391-516613AA243D</guid>
     <property name="ti.ui.defaultunit">system</property>
+    <property name="ti.android.threadstacksize" type="int">32768</property>
     <iphone>
         <orientations device="iphone">
             <orientation>Ti.UI.PORTRAIT</orientation>
@@ -57,4 +58,4 @@
     <plugins>
         <plugin version="1.0">ti.alloy</plugin>
     </plugins>
-</ti:app>
+<property name="ti.deploytype">development</property></ti:app>

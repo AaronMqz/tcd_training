@@ -18,7 +18,7 @@ if (!Ti.App.Properties.hasProperty('seeded')) {
     // save all of the elements
     Alloy.Collections.Fugitive.each(function(_m) {
         _m.save();
-    })
+    });
 
     Ti.App.Properties.setString('seeded', 'yuppers');
 
@@ -28,6 +28,14 @@ if (!Ti.App.Properties.hasProperty('seeded')) {
 
     $.tabGroup.open();
 
+}
+if(OS_ANDROID) {
+    function addNewFugitive() {
+        Ti.API.info('menu')
+        var addFugitiveController = Alloy.createController('FugitiveAdd');
+        var tab_fugitives = $.fugitivesTab.getView(); 
+        tab_fugitives.open(addFugitiveController.getView());
+    }
 }
 
 // force tables to update
