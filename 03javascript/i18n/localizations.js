@@ -14,7 +14,7 @@ String.toLocaleString({
 	},
 	"ja": {
 		"%l_filetitle": "はじめに",
-		"%l_lessontitle": "はじめに",
+		"%l_lessontitle": "はじめに"
 	},
 	"es": {
 		"%l_filetitle": "JavaScript",
@@ -101,7 +101,7 @@ String.toLocaleString({
 		"%l_hoisting3" : "Declaraciones de funciones son elevadas (movidas)",
 		"%l_hoisting4" : "Sentencias de funciones no",
 		"%l_hostingtryit" : "¿Cuál es la salida?",
-		"%l_hoistinganswer" : "Respuesta: I am NOT Android - por que la declaración de foo() es elevada"
+		"%l_hoistinganswer" : "Respuesta: I am NOT Android - por que la declaración de foo() es elevada",
 		"%l_functionst" : "Funciones",
 		"%l_args" : "Argumentos",
 		"%l_args2" : "Las funciones de JavaScript pueden aceptar un número variable de argumentos sin errores",
